@@ -134,17 +134,27 @@
   content: "";
   width: 20px;
   height: 20px;
+  border: 2px solid rgba(125, 111, 93, 0.5);
+  border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
-  background-repeat: no-repeat;
-}
-.sign-up-form__radio::before {
-  background: url(../img/sign-up/raio-unchecked.svg);
 }
 .sign-up-form__radio:checked::before {
-  background: url(../img/sign-up/radio-checked.svg);
+  border-color: #7D6F5D;
 }
+.sign-up-form__radio:checked::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #7D6F5D;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .sign-up-form__sex-container .sign-up-form__radio,
 .sign-up-form__sex-container .radio-group__female,
 .sign-up-form__sex-container .radio-group__male {
