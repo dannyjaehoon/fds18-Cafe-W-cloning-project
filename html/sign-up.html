@@ -336,7 +336,7 @@
                     <div class="sign-up-form__terms-container sign-up-form__container sign-section-form__container">
                         <span class="sign-up-form__title sign-section-form__label text-bold">선택적 개인정보 수집동의 및 이용약관</span>
                         <div class="terms-text-container">
-                            <pre class="terms-text">
+                            <pre class="terms-text" id="termsText">
 본인은 Cafe W(이하 “회사”라 합니다)가 제공하는 콜 마이 네임 서비스 (이하 “서비스”라 합니다)를 이용하기 위해, 다음과 같이 “회사”가 본인의 개인정보를 수집·이용하는 것에 동의합니다.
 ※ 귀하께서는 개인정보 수집·이용에 대한 동의를 거부하실 수 있으나, 동의를 거부하실 경우 서비스 이용을 하실 수 없습니다.
 1. 개인정보 항목·목적·보유기간
@@ -352,7 +352,7 @@
                             </pre>
                         </div>
                         <label for="agree" class="offscreen">동의</label>
-                        <input type="checkbox" class="agree-checkbox" name="agree" id="agree" aria-checked="false">
+                        <input type="checkbox" class="agree-checkbox" name="agree" id="agree" aria-describedby="termsText" aria-checked="false">
                     </div>
                 </fieldset>
                 <p class=" sign-section-form__text sign-section-form__text">
