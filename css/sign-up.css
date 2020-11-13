@@ -110,7 +110,7 @@
 .sign-up-form__name-container, 
 .sign-up-form__sex-container {
   display: inline-block;
-  width: 209px;
+  width: 205px;
 }
 .sign-up-form__name-container .asterisk,
 .sign-up-form__sex-container .asterisk {
