@@ -109,19 +109,17 @@
   ![입력창 힌트 - 입력 후](asset/input-after.png)
 
   ```HTML
-  <div class="sign-up-formemail-container sign-up-formcontainer sign-section-formcontainer">
-      <label for="email" class="sign-up-formlabel sign-section-formlabel text-bold">
-          아이디
-          <strong class="asterisk">
-              <img class="img-rwd" src="../img/sign-up/asterisk.png" alt="필수 기입 항목">
-          </strong>
-      </label>
-      <span class="sign-section-formhint" id="emailHint">
-          등록할 사용자 계정을 입력합니다. (예:seulbinim@gmail.com)
-      </span>
-      <input type="email" class="sign-up-forminput sign-section-forminput" name="email" id="email" autocomplete="on"
-                  aria-required="true" aria-describedby="emailHint" aria-invalid="false">
-      <span class="sign-section-form__error-message" role="alert" aria-live="polite">입력 오류 메시지</span>
+  <div class="sign-up-form__email-container sign-up-form__container sign-section-form__container">
+    <label for="email" class="sign-up-form__label sign-section-form__label text-bold">아이디
+        <strong class="asterisk">
+            <img class="img-rwd" src="../img/sign-up/asterisk.png" alt="필수 기입 항목">
+        </strong>
+    </label>
+    <span role="tooltip" class="sign-section-form__hint" id="emailHint">등록할 사용자 계정을 입력합니다. (예:
+        seulbinim@gmail.com)</span>
+    <input type="email" class="sign-up-form__input sign-section-form__input" name="email" id="email" autocomplete="on"
+        aria-required="true" aria-describedby="emailHint" aria-invalid="false">
+    <span class="sign-section-form__error-message" role="alert" aria-live="polite">입력 오류 메시지</span>
   </div>
 
   ```
