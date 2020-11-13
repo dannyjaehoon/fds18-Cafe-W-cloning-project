@@ -101,8 +101,7 @@
 **강은진**
 - 검색최적화를 위한 풍부한 콘탠츠
 
-
-  ![입력창 힌트 - 입력 전](asset/find-store.png)
+  ![입력창 힌트 - 입력 전](asset/find-store.PNG)
 
 
 - 접근성 이슈
@@ -133,11 +132,11 @@
 - 라디오 버튼 및 체크박스 커스터마이징
   - Chrome에서 보여지는 페이지
 
-  ![체크 박스 커스터마이징](asset/chrome-sign-up.png)
+  ![체크 박스 커스터마이징](asset/chrome-sign-up.PNG)
 
   - Internet Explorer 에서 보여지는 페이지
 
-  ![체크 박스 커스터마이징](asset/ie-sign-up.png)
+  ![체크 박스 커스터마이징](asset/ie-sign-up.PNG)
 
 
 
